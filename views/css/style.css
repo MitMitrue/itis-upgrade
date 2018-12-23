@@ -1,0 +1,135 @@
+.ajax {
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.ajax a {
+    color: #000;
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(241,241,241,0.91);
+}
+.wraper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+h1 {
+    text-align: center;
+    margin-top:20px;
+    font-size:20px;
+    font-style: italic;
+}
+input,select {
+    padding: 7px;
+}
+span#user{
+    margin-left:80px;
+}
+/*th,td {*/
+/*padding: 4px;*/
+/*text-align: center;*/
+/*}*/
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+}
+th {
+    background: #005b9b;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+th:first-child {
+    border-top-left-radius: 10px;
+}
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+td {
+    padding: 4px 10px;
+    background: lightskyblue;
+}
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+    border-right: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.select {
+    display: inline-block;
+}
+label {
+    display: block;
+    margin-bottom: 0.35em;
+    margin-left: 5px;
+}
+#submit {
+    background: lightskyblue;
+    border-radius: 10px;
+}
+form {
+    margin-top: 20px;
+}
+.reports {
+    margin-top: 20px;
+}
+.progress {
+    font-size: 13px;
+    vertical-align: middle;
+    background-repeat: repeat-x;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 28px;
+    width: 250px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px 0;
+    border: #000 1px solid;
+}
+
+.progress .bar {
+    background-color: #0E90D2;
+    background-size: 40px 40px;
+    -moz-box-sizing: border-box;
+    -moz-transition: width 0.6s ease 0s;
+    background-repeat: repeat-x;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #000;
+    float: left;
+    height: 100%;
+    text-align: left;
+    padding: 5px 8px;
+    font-size: 13px;
+    text-shadow: 1px 1px #333;
+    white-space: nowrap;
+}
