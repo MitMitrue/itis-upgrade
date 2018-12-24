@@ -1,17 +1,14 @@
 <?php
 
 /**
- * Класс User - модель для работы с пользователями
+ * Класс Reports - модель для работы с базой данных
  */
 class Reports
 {
 
     /**
-     * Регистрация пользователя
-     * @param string $name <p>Имя</p>
-     * @param string $email <p>E-mail</p>
-     * @param string $password <p>Пароль</p>
-     * @return boolean <p>Результат выполнения метода</p>
+     * Запрос к базе действий пользователей по странам
+     * @return array <p>Результат выполнения метода</p>
      */
     public static function countries()
     {
@@ -31,11 +28,8 @@ class Reports
     }
 
     /**
-     * Редактирование данных пользователя
-     * @param integer $id <p>id пользователя</p>
-     * @param string $name <p>Имя</p>
-     * @param string $password <p>Пароль</p>
-     * @return boolean <p>Результат выполнения метода</p>
+     * Запрос к базе запросов астрономичекий час
+     * @return array <p>Результат выполнения метода</p>
      */
     public static function hour()
     {
@@ -53,10 +47,8 @@ class Reports
     }
 
     /**
-     * Проверяем существует ли пользователь с заданными $email и $password
-     * @param string $email <p>E-mail</p>
-     * @param string $password <p>Пароль</p>
-     * @return mixed : integer user id or false
+     * Запрос к базе действий пользолей различных стран по определенным категориям.
+     * @return array <p>Результат выполнения метода</p>
      */
     public static function users()
     {
