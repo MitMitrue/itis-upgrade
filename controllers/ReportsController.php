@@ -5,7 +5,7 @@ require_once ROOT . 'models/Reports.php';
 class ReportsController
 {
     /**
-     * Action для страницы "Отчет посетители какой страны совершают больше всего действий на сайте?"
+     * Action для страницы "Отчеты посетители какой страны совершают больше всего действий на сайте?"
      */
     public function actionCountries()
     {
